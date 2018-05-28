@@ -4,7 +4,7 @@ guess=0
 i=0
 while guess!=secretNumber:
         i=i+1
-        print("Take a guess")
+        print("Take a guess of number (1-10)")
         guess=int(input())
         if guess < secretNumber:
                    print('Your guess is too low.')
